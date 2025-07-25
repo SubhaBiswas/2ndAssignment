@@ -20,11 +20,15 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F5F8FF;
 }
-header, .main{
+header, .main-container{
     max-width: 1140px;
     margin: 0 auto;
 }
 nav img{
   height: 30px;
+}
+.color-ita{
+ color: #E95A08
 }
