@@ -21,14 +21,44 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     background-color: #F5F8FF;
+    /* padding: 16px; */
 }
 header, .main-container{
-    max-width: 1140px;
-    margin: 0 auto;
+    /* max-width: 1140px; */
+    margin-top: 50px;
 }
 nav img{
   height: 30px;
 }
 .color-ita{
  color: #E95A08
+}
+.button{
+  width: 100%;
+  background-color: #E95A08;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(93, 7, 173);
+  
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .flower{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+
 }
