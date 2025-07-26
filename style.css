@@ -45,12 +45,36 @@ nav img{
   padding-left: 30px;
   padding-top: 20px;
 }
+.store{
+  position: relative;
+}
+.badge{
+  width: 200px;
+  height: 200px;
+  top: -680px;
+  left: 400px;
+}
 
+.badge {
+  animation-name: spin; /* Refers to the @keyframes rule named "spin" */
+  animation-duration: 7s; /* The animation will last 2 seconds */
+  animation-iteration-count: infinite; /* The animation will repeat infinitely */
+  animation-timing-function: linear; /* The animation will have a constant speed */
+}
+@keyframes spin{
+  from {
+    transform: rotate(0deg); /* Start at 0 degrees rotation */
+  }
+  to {
+    transform: rotate(360deg); /* End at 360 degrees rotation (one full spin) */
+  }
+}
 
-
-
-
-
+@media screen and (max-width: 980px) {
+.spin{
+  display: none;
+}
+}
 
 
 @media screen and (max-width: 768px) {
