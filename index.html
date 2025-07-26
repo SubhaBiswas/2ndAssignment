@@ -54,7 +54,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full">
@@ -62,7 +62,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full">
@@ -70,7 +70,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full">
@@ -78,7 +78,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full">
@@ -86,7 +86,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
           <div class=" w-full">
@@ -94,7 +94,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full max-sm:hidden">
@@ -102,7 +102,7 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
          <div class=" w-full max-sm:hidden">
@@ -110,14 +110,14 @@
             <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
             <p class="text-2xl ">Lily Blossom</p>
             <p class="text-2xl bold">20 USD</p>
-            <button class="button">Add to Cart</button>
+            <button onclick="myalert()" class="button">Add to Cart</button>
            </div>
          </div>
           
         </section>
-      
+        <!-- spin badge section -->
         <!-- flower plants lover section -->
-         <div class="md:flex mt-40 max-sm:mt-20">
+         <div class="md:flex mt-30 max-sm:mt-20">
               <div class="sm:w-full md:w-1/2">
                 <div class="store">
                   <img class="hero" src="assets/flower-store.png" alt="flower-store">
@@ -140,15 +140,16 @@
 
         </div>
 
-         <div class="text text-center mt-10 lg:mt-15">
+         <div class="text text-center mt-10 lg:mt-0">
           <h2 class="font-noto mb-2 md:mb-10 text-2xl md:text-3xl lg:text-4xl xl:text-5xl"><span class="color-ita">Latest </span>Deals</h2>
           <p class="md:text-xl lg:text-1xl xl:text-2xl ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
-        <!-- Deal Images start -->
-        <div class="block md:flex mt-20 ">
+
+        <!-- Deal Images start --> <!------------------------------------------------------------------------------------------------------->
+        <div class="md:flex mt-20 ">
               <div class="sm:w-full md:w-1/3">
                 <div class="ana">
-                  <img class="rounded-2xl" src="assets/deal-ana.png" alt="image">
+                <img class="rounded-2xl" src="assets/deal-ana.png" alt="image">
                 </div>
                 <div class="bloom">
                   <img class="rounded-2xl mt-4" src="assets/deal-bloom.png" alt="">
@@ -162,9 +163,22 @@
 
     </div>
     <!-- join section -->
-     <section class="max-w-full">
+     <!-- <section class="relative max-w-full lg:mt-30">
       <img src="assets/news-letter-bg.png" alt="image">
-     </section>
+      <h2>Hi join with our Gorup</h2>
+     </section> -->
+      <div
+        class="w-full h-screen bg-[url('https://www.khueapps.com/media/images/2025-02/3.webp')] bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center backdrop-blur-lg">
+            <h3 class="text-2xl text-orange-400">HI THERE</h3>
+            <h1 class="mt-5 text-center text-4xl text-white font-semibold">WELCOME TO
+                <span class="text-yellow-300">THE FUTURE</span>
+            </h1>
+        </div>
+      </div>
+
+     <!------------------------------------------------------------End of My difficult section-------------------------------------------->
+
      <!-- Foooter section -->
      <footer class="max-w-6xl mx-auto md:mt-30 mb-20 max-sm:mb-5">
        <section class="w-full grid sm:grid-cols-1 md:grid-cols-3">
@@ -202,6 +216,12 @@
        
         </section>
      </footer>
+
+    <script>
+    function myalert() {
+        alert("Flower added to cart");
+    }
+  </script>
 
 </body>
 </html>
